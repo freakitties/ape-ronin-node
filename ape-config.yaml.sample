@@ -1,0 +1,14 @@
+geth:
+  ethereum:
+    mainnet:
+      uri: http://localhost:5030
+
+ronin-node:
+  ronin:
+    mainnet:
+      #uri: https://api.roninchain.com/rpc
+      uri: https://ronin.lgns.net/rpc
+    saigon:
+      uri: https://saigon-testnet.roninchain.com/rpc
+
+
