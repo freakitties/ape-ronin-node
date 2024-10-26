@@ -5,6 +5,7 @@ TODO: Description
 ## Dependencies
 
 - [python3](https://www.python.org/downloads) version 3.9 up to 3.12.
+- [ape_ronin](https://github.com/freakitties/ape-ronin)
 
 ## Installation
 
@@ -21,14 +22,14 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
-python3 setup.py install
+git clone https://github.com/freakitties/ape-ronin-node.git
+cd ape-ronin-node
+python3 setup.py install or pip install .
 ```
 
 ## Quick Usage
 
-TODO: Describe library overview in code
+ape console --network ronin:mainnet
 
 ## Development
 
